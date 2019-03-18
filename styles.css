@@ -16,9 +16,6 @@ body{
     flex-direction:row;
     align-items: center;
     justify-content: center;
-
-    border:1px solid black;
-
   }
   .c1,.c2,.c3,.c4,.c5, .c6{
     width: 100%;
@@ -32,6 +29,9 @@ padding: 32px;
   }
   .c4,.c5{
     border:1px solid blue;
+  }
+  ul{
+align-items: center;
   }
 
   h1{
@@ -63,9 +63,7 @@ padding: 32px;
     width:35%;
     height: auto;
     align-items: center;
- justify-content: center;
-    border:1px solid blue;
-
+    justify-content: center;
   }
   }
   @media (min-width: 768px){
